@@ -42,7 +42,7 @@ This documentation provides step-by-step instructions on how to integrate Azure 
 Install the required packages using pip:
 
 ```bash
-pip install django-auth-azure-ad
+pip install django-auth-adfs
 ```
 
 ### Step 5: Configure Django Settings
