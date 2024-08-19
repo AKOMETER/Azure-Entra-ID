@@ -125,8 +125,8 @@ AUTH_ADFS = {
 
 # Configure django to redirect users to the right URL for login
 LOGIN_URL = "django_auth_adfs:login"
-LOGIN_REDIRECT_URL = "http://localhost:8000/oauth2/callback"
-
+LOGIN_REDIRECT_URL = "http://localhost:8000/complete/azuread-tenant-oauth2/"
+# LOGIN_REDIRECT_URL = "http://localhost:8000/oauth2/callback"
 
 
 
